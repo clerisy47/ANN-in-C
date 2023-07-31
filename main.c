@@ -7,6 +7,7 @@ void SigmoidOfElements(float  *input_Array, int no_of_elements);
 float SigmoidArray(float x);
 void reluToEachElement(float* inputArray, int size);
 float relu(float x);
+void tanhyper(float *inputArray, int size);
 
 
 int main() {
@@ -35,4 +36,14 @@ void reluToEachElement(float* inputArray, int size) {
 // relu function
 float relu(float x) {
     return (x > 0) ? x : 0;
+}
+
+
+//tan hyperbolic function
+void tanhyper(float *inputArray, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        inputArray[i] = tanh(inputArray[i]);
+    }
 }

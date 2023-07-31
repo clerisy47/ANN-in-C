@@ -7,10 +7,6 @@ void SigmoidOfElements(float  *input_Array, int no_of_elements);
 float SigmoidArray(float x);
 
 
-
-   
-
-
 int main() {
     // Initialize inputArray
     float input_Array[] = {0.1,0.65,1,0,-0.34,-0.02};

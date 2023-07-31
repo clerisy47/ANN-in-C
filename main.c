@@ -6,6 +6,8 @@
 void SigmoidOfElements(float  *input_Array, int no_of_elements);
 float SigmoidArray(float x);
 
+void reluToEachElement(float* inputArray, int size);
+float relu(float x);
 
 int main() {
     // Initialize inputArray
@@ -40,3 +42,14 @@ float SigmoidArray(float x) {
 
 } 
 
+// relu function to take each element of an array and apply ReLU
+void reluToEachElement(float* inputArray, int size) {
+    for (int i = 0; i < size; i++) {
+        inputArray[i] = relu(inputArray[i]);
+    }
+}
+
+// relu function
+float relu(float x) {
+    return (x > 0) ? x : 0;
+}

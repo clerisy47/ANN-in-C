@@ -14,7 +14,6 @@ int main() {
 
     // call sigmoid function
     SigmoidOfElements(input_Array, no_of_elements);
-
     return 0;
 }
 

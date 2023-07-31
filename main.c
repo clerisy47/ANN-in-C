@@ -12,18 +12,8 @@ int main() {
     float input_Array[] = {0.1,0.65,1,0,-0.34,-0.02};
     int no_of_elements = sizeof(input_Array) / sizeof(input_Array[0]);
 
-    printf("\nInputs for sigmoid function:\n");
-    for (int i = 0; i < no_of_elements; i++) {
-        printf("%f\n",input_Array[i]);
-    }
-    
-
     // call sigmoid function
     SigmoidOfElements(input_Array, no_of_elements);
-    printf("\nOutputs after applying sigmoid:\n");
-    for (int i = 0; i < no_of_elements; i++) {
-        printf("%f\n",input_Array[i]);
-    }
     return 0;
 }
 

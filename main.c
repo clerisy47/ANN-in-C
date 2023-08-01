@@ -57,7 +57,6 @@ void tanhyper(float *inputArray, int size)
 void generateNumbers(float *array, int size) {
     for (int i = 0; i < size; i++) {
         array[i] = (float)rand() / RAND_MAX;
-        printf("%f\t",array[i]);
     }
 }
 

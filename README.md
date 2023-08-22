@@ -6,10 +6,11 @@ This repository contains code for a simple neural network implemented in C for r
 # Dependencies
 Make sure you have the following libraries installed before running the code:
 
-1. math.h
-2. time.h
-3. stdio.h
-4. stdlib.h
+- math.h
+- time.h
+- stdio.h
+- stdlib.h
+  
 Additionally, this code relies on custom header files provided in the repository:
 
 - img/img.h: Header for handling image data.
@@ -24,39 +25,38 @@ The provided code has three main sections: training, testing, and predicting. By
 # Training
 To train the neural network, follow these steps:
 
-Uncomment the training section by removing the comment markers //.
-Adjust the number_imgs variable to specify the number of images to use for training.
-Ensure you have the MNIST dataset in CSV format (e.g., "data/mnist_test.csv").
-Create the neural network using the network_create function with the desired layer sizes and learning rate.
-Train the network using network_train_batch_imgs with the loaded images.
-Save the trained network using network_save.
-Run the code and the network will be trained on the specified images.
+1. Uncomment the training section by removing the comment markers //.
+2. Adjust the number_imgs variable to specify the number of images to use for training.
+3. Ensure you have the MNIST dataset in CSV format (e.g., "data/mnist_test.csv").
+4. Create the neural network using the network_create function with the desired layer sizes and learning rate.
+5. Train the network using network_train_batch_imgs with the loaded images.
+6. Save the trained network using network_save.
+7. Run the code and the network will be trained on the specified images.
 
 # Testing
 To test the trained neural network, follow these steps:
 
-Uncomment the testing section by removing the comment markers //.
-Adjust the number_imgs variable to specify the number of images to use for testing.
-Load the previously saved network using network_load.
-Test the network's accuracy using network_predict_imgs.
-Print the test accuracy.
-Run the code to evaluate the network's performance on the test images.
+1. Uncomment the testing section by removing the comment markers //.
+2. Adjust the number_imgs variable to specify the number of images to use for testing.
+3. Load the previously saved network using network_load.
+4. Test the network's accuracy using network_predict_imgs.
+5. Print the test accuracy.
+6. Run the code to evaluate the network's performance on the test images.
 
 # Predicting
 To use the trained network for making predictions, follow these steps:
 
-Uncomment the predicting section by removing the comment markers //.
-Adjust the number_imgs variable to specify the number of images to use for prediction.
-Load the previously saved network using network_load.
-Load an image you want to predict.
-Print the image using img_print.
-Use the trained network to predict the digit in the image using network_predict_img.
-Print the predicted digit.
-Run the code to predict the digit in the specified image.
+1. Uncomment the predicting section by removing the comment markers //.
+2. Adjust the number_imgs variable to specify the number of images to use for prediction.
+3. Load the previously saved network using network_load.
+4. Load an image you want to predict.
+5. Print the image using img_print.
+6. Use the trained network to predict the digit in the image using network_predict_img.
+7. Print the predicted digit.
+8. Run the code to predict the digit in the specified image.
 
 # Note
 This code is a simplified example and may require additional optimizations and error handling for production use. Additionally, make sure to have the MNIST dataset or a compatible dataset available in the specified paths for training, testing, and predicting.
-
 Feel free to modify and expand upon this code to create more complex neural networks or integrate it into larger projects.
 
 # License
@@ -64,5 +64,5 @@ This project is protected by the MIT License. See the LICENSE file for more deta
 
 # Credits
 * This project was created by Utsav Acharya, Nishan Adhikari, Shrine Sigdel and Roshan Rijal.
-* The handwritten numbe recognition model was trained using Kaggle Dataset https://www.kaggle.com/datasets/oddrationale/mnist-in-csv.
+* The handwritten number recognition model was trained using Kaggle Dataset https://www.kaggle.com/datasets/oddrationale/mnist-in-csv.
 * Different C libraries like stdio, math, stdlib, time, etc were used.

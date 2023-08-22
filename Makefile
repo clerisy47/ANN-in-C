@@ -1,5 +1,5 @@
-C_SOURCES = $(wildcard matrix/*.c neural/*.c util/*.c *.c)
-HEADERS = $(wildcard matrix/*.h neural/*.h util/*.h *.h)
+C_SOURCES = $(wildcard matrix/*.c neural/*.c img/*.c *.c)
+HEADERS = $(wildcard matrix/*.h neural/*.h img/*.h *.h)
 OBJ = ${C_SOURCES:.c=.o}
 CFLAGS = 
 

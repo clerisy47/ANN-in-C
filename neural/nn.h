@@ -1,7 +1,7 @@
 #pragma once
 
 #include "../matrix/matrix.h"
-#include "../util/img.h"
+#include "../img/img.h"
 
 typedef struct {
 	int input;

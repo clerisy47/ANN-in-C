@@ -60,7 +60,7 @@ This code is a simplified example and may require additional optimizations and e
 Feel free to modify and expand upon this code to create more complex neural networks or integrate it into larger projects.
 
 # License
-This project is protected by the MIT License. See the LICENSE file for more details.
+This project is protected by the  GNU GENERAL PUBLIC LICENSE. See the LICENSE file for more details.
 
 # Credits
 * This project was created by Utsav Acharya, Nishan Adhikari, Shrine Sigdel and Roshan Rijal.
